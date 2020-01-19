@@ -1,0 +1,84 @@
+{
+  "name": "cardinal_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "axios": "^0.19.1",
+    "bootstrap": "^4.4.1",
+    "js-object-helper": "0.0.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "react": "^16.12.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-animated-css": "^1.2.1",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-intersection-visible": "^2.1.0",
+    "react-redux": "^7.1.3",
+    "react-reveal": "^1.2.2",
+    "redux": "^4.0.5",
+    "redux-form": "^8.2.6",
+    "redux-logger": "^3.0.6"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --progress -p   --optimize",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^3.4.2",
+    "dotenv-webpack": "^1.7.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "jest-transform-stub": "^2.0.0",
+    "node-sass": "^4.13.0",
+    "prop-types": "^15.7.2",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.2",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "transform": {
+      "^.+\\.js|jsx$": "babel-jest",
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/enzyme.js"
+    ]
+  }
+}
