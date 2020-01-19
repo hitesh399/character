@@ -4,7 +4,7 @@
 - Code Editor Visual Studio Code
 
 # Set Up Guidelines :+1:
-1. Clone production using the git command `git clone https://github.com/hitesh399/character.git` or download the code direct form GIT
+1. Clone project using the git command `git clone https://github.com/hitesh399/character.git` or download the code direct form GIT
 2. Go to project root directory(Where package.json is located) and open the terminal/command prompt at this location
 3. Run command `npm install` on terminal
 4. Create .env file By Run the command: `cp .env.example .env` Or can manual copy the .env.example to .env file.
