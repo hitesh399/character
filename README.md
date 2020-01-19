@@ -7,8 +7,9 @@
 1. Clone production using the git command `git clone https://github.com/hitesh399/character.git` or download the code direct form GIT
 2. Go to project root directory(Where package.json is located) and open the terminal/command prompt at this location
 3. Run command `npm install` on terminal
-4. To start development server: Run command `npm start`
-5. To Make Build For production: Run Command `npm build`
+4. Create .env file By Run the command: `cp .env.example .env` Or can manual copy the .env.example to .env file.
+5. To start development server: Run command `npm start`
+6. To Make Build For production: Run Command `npm run build`
 
 ### Desktop View
 ![Image description](https://github.com/hitesh399/character/blob/master/screens/Screenshot%202020-01-19%20at%209.54.20%20AM.png)
