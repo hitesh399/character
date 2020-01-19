@@ -24,7 +24,7 @@ export class SelectedFilter extends React.PureComponent {
             <div>
                 {this.getSelectedArr().map(
                     v => 
-                        <div className="selected-filter-item" key={v.value}>
+                        <div className="selected-filter-item" key={`${v.key}-${v.value}`}>
                             <Button disabled={requesting} variant="primary">
                                 {v.value}
                             <Badge pill variant="primary" onClick={(e) => this.removeFilter(e, v.key)}>X</Badge>
